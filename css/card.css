@@ -1,0 +1,95 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+}
+.card {
+  display: flex;
+  margin: 150px 400px;
+}
+@media (max-width: 767px) {
+  .card {
+    /*display: flex;*/
+    /* margin: 150px 400px; */
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .card .image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 288px;
+    margin: 0;
+  }
+}
+.card .image img {
+  width: 300px;
+  /*border-radius: 6px;*/
+}
+.card .content {
+  background-color: white;
+  padding: 30px 30px 0 30px;
+  /*border-radius: 6px;*/
+}
+.card .content .head {
+  font-family: "Fraunces", serif;
+  font-size: 15px;
+
+  display: block;
+  letter-spacing: 2px;
+  color: #777;
+}
+.card .content .title {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Montserrat", sans-serif;
+}
+.card .content p {
+  color: #777;
+  font-size: 14px;
+}
+.card .content .price {
+  display: flex;
+  align-items: center;
+}
+.card .content .price span:first-child {
+  font-size: 30px;
+  font-weight: bolder;
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+}
+.card .content .price span:first-child:hover {
+  color: hsl(228, 12%, 48%);
+}
+.card .content .price span:last-child {
+  font-size: 14px;
+  text-decoration: line-through;
+  display: inline;
+  padding: 10px;
+}
+.card .content button {
+  display: block;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  padding: 15px 55px;
+  border-radius: 6px;
+  /* padding: 10px; */
+  margin: 20px auto 0;
+  font-size: 17px;
+  font-weight: bold;
+  width: max-content;
+  transition: 0.7s;
+}
+.card .content button:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+.attribution {
+  font-size: 20px;
+}
