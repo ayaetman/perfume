@@ -19,6 +19,14 @@ body {
   }
   .card .image img {
     width: 100%;
+    display:none;
+  }
+  .card .content {
+  padding: 30px ;
+  border-radius: 6px;
+}
+  .attribution{
+  text-align:left;
   }
 }
 
