@@ -21,15 +21,16 @@ body {
     width: 100%;
     display:none;
   }
-  .card .content {
-  padding: 30px ;
-  border-radius: 6px;
 }
-  .attribution{
+@media (max-width: 767px){
+ .card .content {
+  padding: 30px ;
+  border-radius: 7px;
+}
+ .attribution{
   text-align:left;
   }
 }
-
 @media (max-width: 960px) {
   .card {
     width: 288px;
