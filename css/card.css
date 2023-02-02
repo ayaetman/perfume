@@ -24,7 +24,7 @@ body {
 }
 @media (max-width: 767px){
  .card .content {
-  padding: 30px ;
+  padding: 30px 30px 30px 30px ;
   border-radius: 7px;
 }
  .attribution{
